@@ -62,11 +62,8 @@ Key dev scripts in `package.json`:
 
 ## Future Work
 
-The following are suggested improvements you might implement:
+The following items I plan to fix, improve, and/or add to this project in the future:
 
-- Choose and standardize a single test runner (Jest or Vitest) and update `package.json` accordingly.
-- Improve location canonicalization and merging (e.g., normalize capitalization and whitespace for location names).
-- Add safe persistence: create backups before overwriting `src/data.json`, or write changes to a separate `data-updates.json` and provide a merge tool.
-- Add an optional web UI or REST API to allow multiple users to query/update the same data store.
-
-If you'd like, I can implement one of these improvements for you (for example: add a `postbuild` script to copy `src/data.json` into `dist/`, or add a backup step before writing `src/data.json`).
+* [add more text to print ] 
+* [do some math thing ] 
+* [ create an array]

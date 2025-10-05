@@ -16,7 +16,7 @@ const SRC_DATA_PATH = fileURLToPath(new URL('../src/data.json', import.meta.url)
 
 async function loadData(): Promise<Item[]> {
   try {
-    const raw = await fs.readFile(DATA_PATH, "utf8");
+    const raw = await fs.readFile(SRC_DATA_PATH, "utf8");
     const obj = JSON.parse(raw);
     return obj.items ?? [];
   } catch {
@@ -27,14 +27,7 @@ async function loadData(): Promise<Item[]> {
 async function saveData(items: Item[]) {
   const content = JSON.stringify({ items }, null, 2);
   // Write to the data file next to the running module (this is where the app reads from)
-  await fs.writeFile(DATA_PATH, content, "utf8");
-  // Also attempt to persist back to the project's source file so changes survive builds
-  try {
-    await fs.writeFile(SRC_DATA_PATH, content, "utf8");
-  } catch (err: any) {
-    // Non-fatal: log a warning so developer knows src wasn't updated
-    console.warn("Warning: could not write src/data.json:", err?.message ?? err);
-  }
+  await fs.writeFile(SRC_DATA_PATH, content, "utf8");
 }
 
 async function main() {

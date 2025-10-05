@@ -2,40 +2,10 @@
   "items": [
     {
       "name": "comb",
-      "category": "unknown",
+      "category": "makeup",
       "locations": [
         [
-          "desk",
-          1
-        ]
-      ]
-    },
-    {
-      "name": "comb",
-      "category": "unknown",
-      "locations": [
-        [
-          "desk",
-          1
-        ]
-      ]
-    },
-    {
-      "name": "phone",
-      "category": "unknown",
-      "locations": [
-        [
-          "class room",
-          1
-        ]
-      ]
-    },
-    {
-      "name": "keys",
-      "category": "unknown",
-      "locations": [
-        [
-          "class",
+          "backpack",
           3
         ],
         [
@@ -43,7 +13,209 @@
           1
         ],
         [
+          "purse",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "phone",
+      "category": "electronics",
+      "locations": [
+        [
+          "desk",
+          5
+        ],
+        [
+          "pant pocket",
+          4
+        ],
+        [
+          "jacket pocket",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "wallet",
+      "category": "personal",
+      "locations": [
+        [
+          "backpack",
+          4
+        ],
+        [
+          "jacket pocket",
+          3
+        ],
+        [
+          "desk",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "keys",
+      "category": "personal",
+      "locations": [
+        [
+          "counter",
+          5
+        ],
+        [
+          "purse",
+          2
+        ],
+        [
+          "coat hook",
+          1
+        ],
+        [
+          "class room",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "glasses",
+      "category": "accessory",
+      "locations": [
+        [
+          "nightstand",
+          3
+        ],
+        [
+          "desk",
+          2
+        ],
+        [
+          "backpack",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "water bottle",
+      "category": "drinkware",
+      "locations": [
+        [
+          "desk",
+          4
+        ],
+        [
+          "backpack",
+          2
+        ],
+        [
+          "car cupholder",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "charger",
+      "category": "electronics",
+      "locations": [
+        [
+          "desk",
+          4
+        ],
+        [
+          "backpack",
+          2
+        ],
+        [
+          "bedside",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "headphones",
+      "category": "electronics",
+      "locations": [
+        [
+          "purse",
+          2
+        ],
+        [
+          "backpack",
+          3
+        ],
+        [
+          "desk",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "umbrella",
+      "category": "outdoor",
+      "locations": [
+        [
+          "coat closet",
+          4
+        ],
+        [
+          "car trunk",
+          2
+        ],
+        [
+          "back of chair",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "notebook",
+      "category": "stationery",
+      "locations": [
+        [
+          "desk",
+          5
+        ],
+        [
+          "backpack",
+          2
+        ],
+        [
+          "shelf",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "pen",
+      "category": "stationery",
+      "locations": [
+        [
+          "desk",
+          6
+        ],
+        [
+          "backpack",
+          1
+        ],
+        [
           "pocket",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "sunglasses",
+      "category": "accessory",
+      "locations": [
+        [
+          "car visor",
+          3
+        ],
+        [
+          "purse",
+          2
+        ],
+        [
+          "backpack",
           1
         ]
       ]

@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "name": "comb",
+      "category": "unknown",
+      "locations": [
+        [
+          "desk",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "comb",
+      "category": "unknown",
+      "locations": [
+        [
+          "desk",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "phone",
+      "category": "unknown",
+      "locations": [
+        [
+          "class room",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "keys",
+      "category": "unknown",
+      "locations": [
+        [
+          "class",
+          3
+        ],
+        [
+          "desk",
+          1
+        ],
+        [
+          "pocket",
+          1
+        ]
+      ]
+    }
+  ]
+}
